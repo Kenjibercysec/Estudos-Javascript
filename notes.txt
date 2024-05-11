@@ -1,0 +1,64 @@
+! + tab 
+
+variables{
+    let name = 'mosh';
+
+ console.log(name);
+}
+
+constants{
+    const idk = 0.3;
+}
+
+type{
+    typeof age
+}
+
+object(struct){
+    let person - {
+        name: 'john',
+        age: 30
+
+    };
+    
+    pserson.name = 'john'
+    person['name'] = 'mary';
+}
+
+
+arrey{
+    let selectedColors = ['red', 'blue'];
+
+    console.log(selectedColors);
+
+    console.log(selectedColors[1]);
+
+    slectedColors[2] = 'green';
+
+
+}
+
+
+functions{
+    function greet(){
+        console.log('hello world');
+    }
+
+
+    greet();
+
+    function greet(name, lasName){
+
+        console.log('hello' + name + lasName);
+    }
+
+    greet('john', 'smith');
+  
+
+}
+
+Comparação com ternário{
+    let points = 90;
+    let type = points>100 ? 'gold' : 'silver';
+
+}
