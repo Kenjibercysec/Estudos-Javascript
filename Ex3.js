@@ -14,7 +14,6 @@ function fizzBuzz(input){
     if(input % 5 ==0)
         return 'Buzz';
 
-   
 
     return input;
 }

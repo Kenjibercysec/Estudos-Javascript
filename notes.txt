@@ -62,3 +62,37 @@ Comparação com ternário{
     let type = points>100 ? 'gold' : 'silver';
 
 }
+
+
+
+
+
+
+
+
+new String(); // ''. "", ``
+new Boolean(); // true, false
+new Number(); // 1, 2, 3, ...
+
+
+
+strings{
+    const message = 'This is my\n first message';
+
+    const another = new String('hi');
+}
+
+Templates Literals{
+    const name = 'John';
+    const message = 'Hi' + name + ',\n';
+
+
+    const another = 
+    `Hi ${name} ${2 + 3},
+
+    thank you for joining my mailing list.
+
+    regards,
+    Mosh`;
+    
+}
